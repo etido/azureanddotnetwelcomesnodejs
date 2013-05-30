@@ -28,4 +28,4 @@ hello('Node.js', function (error, result) {
 });
    }
    )
-app.listen(serverConfig.serverport)
+app.listen(process.env.port)
