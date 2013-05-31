@@ -1,0 +1,148 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@1.2.23
+3 info using node@v0.10.8
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose publish [ '.' ]
+6 verbose read json D:\NB16408\Documents\GitHub\azureanddotnetwelcomesnodejs\package.json
+7 verbose cache add [ '.', null ]
+8 verbose cache add name=undefined spec="." args=[".",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: '.',
+9 verbose parsed url   path: '.',
+9 verbose parsed url   href: '.' }
+10 silly lockFile 3a52ce78- .
+11 verbose lock . C:\Users\nb16408\AppData\Roaming\npm-cache\3a52ce78-.lock
+12 verbose read json package.json
+13 verbose tar pack [ 'C:\\Users\\nb16408\\AppData\\Local\\Temp\\npm-9764\\1369995897018-0.07747199083678424\\tmp.tgz',
+13 verbose tar pack   '.' ]
+14 verbose tarball C:\Users\nb16408\AppData\Local\Temp\npm-9764\1369995897018-0.07747199083678424\tmp.tgz
+15 verbose folder .
+16 info prepublish dotnetwelcomesnodejs@1.0.0-4
+17 silly lockFile 3a52ce78- .
+18 verbose lock . C:\Users\nb16408\AppData\Roaming\npm-cache\3a52ce78-.lock
+19 silly lockFile 1f1c2159-7018-0-07747199083678424-tmp-tgz C:\Users\nb16408\AppData\Local\Temp\npm-9764\1369995897018-0.07747199083678424\tmp.tgz
+20 verbose lock C:\Users\nb16408\AppData\Local\Temp\npm-9764\1369995897018-0.07747199083678424\tmp.tgz C:\Users\nb16408\AppData\Roaming\npm-cache\1f1c2159-7018-0-07747199083678424-tmp-tgz.lock
+21 silly lockFile 3a52ce78- .
+22 silly lockFile 3a52ce78- .
+23 silly lockFile 1f1c2159-7018-0-07747199083678424-tmp-tgz C:\Users\nb16408\AppData\Local\Temp\npm-9764\1369995897018-0.07747199083678424\tmp.tgz
+24 silly lockFile 1f1c2159-7018-0-07747199083678424-tmp-tgz C:\Users\nb16408\AppData\Local\Temp\npm-9764\1369995897018-0.07747199083678424\tmp.tgz
+25 verbose tar unpack C:\Users\nb16408\AppData\Local\Temp\npm-9764\1369995897018-0.07747199083678424\tmp.tgz
+26 silly lockFile a1e8970a-7018-0-07747199083678424-package C:\Users\nb16408\AppData\Local\Temp\npm-9764\1369995897018-0.07747199083678424\package
+27 verbose lock C:\Users\nb16408\AppData\Local\Temp\npm-9764\1369995897018-0.07747199083678424\package C:\Users\nb16408\AppData\Roaming\npm-cache\a1e8970a-7018-0-07747199083678424-package.lock
+28 silly lockFile 1f1c2159-7018-0-07747199083678424-tmp-tgz C:\Users\nb16408\AppData\Local\Temp\npm-9764\1369995897018-0.07747199083678424\tmp.tgz
+29 verbose lock C:\Users\nb16408\AppData\Local\Temp\npm-9764\1369995897018-0.07747199083678424\tmp.tgz C:\Users\nb16408\AppData\Roaming\npm-cache\1f1c2159-7018-0-07747199083678424-tmp-tgz.lock
+30 silly gunzTarPerm modes [ '755', '644' ]
+31 silly gunzTarPerm extractEntry package.json
+32 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+33 silly gunzTarPerm extractEntry README.md
+34 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+35 silly gunzTarPerm extractEntry server.js
+36 silly gunzTarPerm modified mode [ 'server.js', 438, 420 ]
+37 silly gunzTarPerm extractEntry favicon.ico
+38 silly gunzTarPerm modified mode [ 'favicon.ico', 438, 420 ]
+39 silly gunzTarPerm extractEntry libraries/dotnet/StartUp.dll
+40 silly gunzTarPerm modified mode [ 'libraries/dotnet/StartUp.dll', 438, 420 ]
+41 verbose read json C:\Users\nb16408\AppData\Local\Temp\npm-9764\1369995897018-0.07747199083678424\package\package.json
+42 silly lockFile a1e8970a-7018-0-07747199083678424-package C:\Users\nb16408\AppData\Local\Temp\npm-9764\1369995897018-0.07747199083678424\package
+43 silly lockFile a1e8970a-7018-0-07747199083678424-package C:\Users\nb16408\AppData\Local\Temp\npm-9764\1369995897018-0.07747199083678424\package
+44 silly lockFile 1f1c2159-7018-0-07747199083678424-tmp-tgz C:\Users\nb16408\AppData\Local\Temp\npm-9764\1369995897018-0.07747199083678424\tmp.tgz
+45 silly lockFile 1f1c2159-7018-0-07747199083678424-tmp-tgz C:\Users\nb16408\AppData\Local\Temp\npm-9764\1369995897018-0.07747199083678424\tmp.tgz
+46 verbose from cache C:\Users\nb16408\AppData\Local\Temp\npm-9764\1369995897018-0.07747199083678424\package\package.json
+47 verbose tar pack [ 'C:\\Users\\nb16408\\AppData\\Roaming\\npm-cache\\dotnetwelcomesnodejs\\1.0.0-4\\package.tgz',
+47 verbose tar pack   'C:\\Users\\nb16408\\AppData\\Local\\Temp\\npm-9764\\1369995897018-0.07747199083678424\\package' ]
+48 verbose tarball C:\Users\nb16408\AppData\Roaming\npm-cache\dotnetwelcomesnodejs\1.0.0-4\package.tgz
+49 verbose folder C:\Users\nb16408\AppData\Local\Temp\npm-9764\1369995897018-0.07747199083678424\package
+50 silly lockFile a1e8970a-7018-0-07747199083678424-package C:\Users\nb16408\AppData\Local\Temp\npm-9764\1369995897018-0.07747199083678424\package
+51 verbose lock C:\Users\nb16408\AppData\Local\Temp\npm-9764\1369995897018-0.07747199083678424\package C:\Users\nb16408\AppData\Roaming\npm-cache\a1e8970a-7018-0-07747199083678424-package.lock
+52 silly lockFile 37deeb68-lcomesnodejs-1-0-0-4-package-tgz C:\Users\nb16408\AppData\Roaming\npm-cache\dotnetwelcomesnodejs\1.0.0-4\package.tgz
+53 verbose lock C:\Users\nb16408\AppData\Roaming\npm-cache\dotnetwelcomesnodejs\1.0.0-4\package.tgz C:\Users\nb16408\AppData\Roaming\npm-cache\37deeb68-lcomesnodejs-1-0-0-4-package-tgz.lock
+54 silly lockFile a1e8970a-7018-0-07747199083678424-package C:\Users\nb16408\AppData\Local\Temp\npm-9764\1369995897018-0.07747199083678424\package
+55 silly lockFile a1e8970a-7018-0-07747199083678424-package C:\Users\nb16408\AppData\Local\Temp\npm-9764\1369995897018-0.07747199083678424\package
+56 silly lockFile 37deeb68-lcomesnodejs-1-0-0-4-package-tgz C:\Users\nb16408\AppData\Roaming\npm-cache\dotnetwelcomesnodejs\1.0.0-4\package.tgz
+57 silly lockFile 37deeb68-lcomesnodejs-1-0-0-4-package-tgz C:\Users\nb16408\AppData\Roaming\npm-cache\dotnetwelcomesnodejs\1.0.0-4\package.tgz
+58 silly lockFile c7615cde-etwelcomesnodejs-1-0-0-4-package C:\Users\nb16408\AppData\Roaming\npm-cache\dotnetwelcomesnodejs\1.0.0-4\package
+59 verbose lock C:\Users\nb16408\AppData\Roaming\npm-cache\dotnetwelcomesnodejs\1.0.0-4\package C:\Users\nb16408\AppData\Roaming\npm-cache\c7615cde-etwelcomesnodejs-1-0-0-4-package.lock
+60 silly lockFile c7615cde-etwelcomesnodejs-1-0-0-4-package C:\Users\nb16408\AppData\Roaming\npm-cache\dotnetwelcomesnodejs\1.0.0-4\package
+61 silly lockFile c7615cde-etwelcomesnodejs-1-0-0-4-package C:\Users\nb16408\AppData\Roaming\npm-cache\dotnetwelcomesnodejs\1.0.0-4\package
+62 verbose tar unpack C:\Users\nb16408\AppData\Roaming\npm-cache\dotnetwelcomesnodejs\1.0.0-4\package.tgz
+63 silly lockFile c7615cde-etwelcomesnodejs-1-0-0-4-package C:\Users\nb16408\AppData\Roaming\npm-cache\dotnetwelcomesnodejs\1.0.0-4\package
+64 verbose lock C:\Users\nb16408\AppData\Roaming\npm-cache\dotnetwelcomesnodejs\1.0.0-4\package C:\Users\nb16408\AppData\Roaming\npm-cache\c7615cde-etwelcomesnodejs-1-0-0-4-package.lock
+65 silly lockFile 37deeb68-lcomesnodejs-1-0-0-4-package-tgz C:\Users\nb16408\AppData\Roaming\npm-cache\dotnetwelcomesnodejs\1.0.0-4\package.tgz
+66 verbose lock C:\Users\nb16408\AppData\Roaming\npm-cache\dotnetwelcomesnodejs\1.0.0-4\package.tgz C:\Users\nb16408\AppData\Roaming\npm-cache\37deeb68-lcomesnodejs-1-0-0-4-package-tgz.lock
+67 silly gunzTarPerm modes [ '755', '644' ]
+68 silly gunzTarPerm extractEntry package.json
+69 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+70 silly gunzTarPerm extractEntry README.md
+71 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+72 silly gunzTarPerm extractEntry server.js
+73 silly gunzTarPerm modified mode [ 'server.js', 438, 420 ]
+74 silly gunzTarPerm extractEntry favicon.ico
+75 silly gunzTarPerm modified mode [ 'favicon.ico', 438, 420 ]
+76 silly gunzTarPerm extractEntry libraries/dotnet/StartUp.dll
+77 silly gunzTarPerm modified mode [ 'libraries/dotnet/StartUp.dll', 438, 420 ]
+78 verbose read json C:\Users\nb16408\AppData\Roaming\npm-cache\dotnetwelcomesnodejs\1.0.0-4\package\package.json
+79 silly lockFile c7615cde-etwelcomesnodejs-1-0-0-4-package C:\Users\nb16408\AppData\Roaming\npm-cache\dotnetwelcomesnodejs\1.0.0-4\package
+80 silly lockFile c7615cde-etwelcomesnodejs-1-0-0-4-package C:\Users\nb16408\AppData\Roaming\npm-cache\dotnetwelcomesnodejs\1.0.0-4\package
+81 silly lockFile 37deeb68-lcomesnodejs-1-0-0-4-package-tgz C:\Users\nb16408\AppData\Roaming\npm-cache\dotnetwelcomesnodejs\1.0.0-4\package.tgz
+82 silly lockFile 37deeb68-lcomesnodejs-1-0-0-4-package-tgz C:\Users\nb16408\AppData\Roaming\npm-cache\dotnetwelcomesnodejs\1.0.0-4\package.tgz
+83 verbose from cache C:\Users\nb16408\AppData\Roaming\npm-cache\dotnetwelcomesnodejs\1.0.0-4\package\package.json
+84 verbose chmod C:\Users\nb16408\AppData\Roaming\npm-cache\dotnetwelcomesnodejs\1.0.0-4\package.tgz 644
+85 silly chown skipping for windows C:\Users\nb16408\AppData\Roaming\npm-cache\dotnetwelcomesnodejs\1.0.0-4\package.tgz
+86 silly lockFile 3a52ce78- .
+87 silly publish { name: 'dotnetwelcomesnodejs',
+87 silly publish   version: '1.0.0-4',
+87 silly publish   description: 'windows azure and dotNet welcomes nodejs',
+87 silly publish   keywords: [ 'Node.js', 'application', 'dotnetwelcomesnodejs' ],
+87 silly publish   author:
+87 silly publish    { name: 'Emanuele Tido',
+87 silly publish      email: 'tidoemanuele@gmail.com',
+87 silly publish      url: 'http://localhost/dotnetwelcomesnodejs' },
+87 silly publish   homepage: 'http://localhost/dotnetwelcomesnodejs',
+87 silly publish   repository: { type: 'git', url: 'https://github.com/etido/' },
+87 silly publish   engines: { node: '>= 0.6.0', npm: '>= 1.0.0' },
+87 silly publish   dependencies: { archiver: '~0.4.2' },
+87 silly publish   devDependencies: {},
+87 silly publish   bundleDependencies: [],
+87 silly publish   private: true,
+87 silly publish   main: 'server.js',
+87 silly publish   subdomain: 'dotnetwelcomesnodejs',
+87 silly publish   scripts:
+87 silly publish    { 'install-windows-service': 'node_modules\\.bin\\winser -i',
+87 silly publish      'uninstall-windows-service': 'node_modules\\.bin\\winser -r',
+87 silly publish      start: 'node server.js' },
+87 silly publish   readme: '# azure and dot net welcomes nodejs\r\n\r\n## A nodeJS-dotnet server running fine on windows azure!\r\n\r\n* .net version >= 4.5\r\n* Nodejs = 0.8\r\n* Express.js = 3.1.0\r\n* Git for deploy\r\n\r\n(thanks to http://tomasz.janczuk.org/2013/03/run-c-and-nodejs-code-in-process-with.html who inspire me)\r\n\r\n1. The .NET class library contains the following code:\r\n<pre>\r\nusing System;\r\nusing System.Collections.Generic;\r\nusing System.IO;\r\nusing System.Text;\r\nusing System.Threading.Tasks;\r\nnamespace Startup\r\n{\r\n    public class Startup\r\n    {\r\n        public async Task<object> Invoke(string input)\r\n        {\r\n            return ".NET welcomes " + input.ToString() + " at "+DateTime.Now;\r\n        }\r\n    }\r\n}\r\n<pre>',
+87 silly publish   readmeFilename: 'README.md',
+87 silly publish   _id: 'dotnetwelcomesnodejs@1.0.0-4',
+87 silly publish   dist: { shasum: 'efa0c2e9c72beb5a97444f0fa45e311d96e4a45f' },
+87 silly publish   _from: '.' }
+88 error Error: This package has been marked as private
+88 error Remove the 'private' field from the package.json to publish it.
+88 error     at publish_ (C:\Program Files\nodejs\node_modules\npm\lib\publish.js:90:31)
+88 error     at Array.1 (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
+88 error     at LOOP (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:15:14)
+88 error     at LOOP (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:14:28)
+88 error     at chain (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:20:5)
+88 error     at C:\Program Files\nodejs\node_modules\npm\lib\publish.js:59:5
+88 error     at C:\Program Files\nodejs\node_modules\npm\lib\cache.js:799:14
+88 error     at process._tickCallback (node.js:415:13)
+89 error If you need help, you may report this log at:
+89 error     <http://github.com/isaacs/npm/issues>
+89 error or email it to:
+89 error     <npm-@googlegroups.com>
+90 error System Windows_NT 6.1.7601
+91 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+92 error cwd D:\NB16408\Documents\GitHub\azureanddotnetwelcomesnodejs
+93 error node -v v0.10.8
+94 error npm -v 1.2.23
+95 verbose exit [ 1, true ]
