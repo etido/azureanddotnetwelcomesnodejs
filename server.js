@@ -20,7 +20,7 @@ app.configure(function () {
 
 app.all('*', function (req, res){
 
-var hello = edge.func('./api/adapters/StartUp.dll');
+var hello = edge.func('./libraries/dotnet/StartUp.dll');
 
 hello('Node.js', function (error, result) {
     if (error) throw error;
