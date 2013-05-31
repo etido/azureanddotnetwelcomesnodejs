@@ -11,11 +11,21 @@
 
 1. The .NET class library contains the following Task:
 <pre>
-	`public async Task<object> Invoke(string input)`
-	
-        `{`
-		
-            `return ".NET welcomes " + input.ToString() + " at "+DateTime.Now;`
-			
-        `}`
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Startup
+{
+    public class Startup
+    {
+
+        public async Task<object> Invoke(string input)
+        {
+            return ".NET welcomes " + input.ToString() + " at "+DateTime.Now;
+        }
+    }
+}
 <pre>
