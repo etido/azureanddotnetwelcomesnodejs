@@ -16,12 +16,10 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using System.Threading.Tasks;
-
 namespace Startup
 {
     public class Startup
     {
-
         public async Task<object> Invoke(string input)
         {
             return ".NET welcomes " + input.ToString() + " at "+DateTime.Now;
