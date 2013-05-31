@@ -1,6 +1,6 @@
 # azure and dot net welcomes nodejs
 
-## A hibrid nodeJS-dotnet server running fine on windows azure!
+## A nodeJS-dotnet server running fine on windows azure!
 
 * .net version >= 4.5
 * Nodejs = 0.8
