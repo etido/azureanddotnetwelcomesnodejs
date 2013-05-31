@@ -8,3 +8,10 @@
 * Git for deploy
 
 (thanks to http://tomasz.janczuk.org/2013/03/run-c-and-nodejs-code-in-process-with.html who inspire me)
+
+1. The .NET class library contains the following Task:
+
+	`public async Task<object> Invoke(string input)`
+        `{`
+            `return ".NET welcomes " + input.ToString() + " at "+DateTime.Now;`
+        `}`
